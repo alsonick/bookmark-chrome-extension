@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "bookmark-chrome-extension",
+  "background": {
+    "service_worker": "background.ts"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": {
+      "16": "assets/icons/16.png",
+      "19": "assets/icons/19.png",
+      "38": "assets/icons/38.png"
+    },
+    "default_title": "Tooltip title",
+    "default_popup": "pages/popup/index.html"
+  },
+  "icons": {
+    "16": "assets/icons/16.png",
+    "19": "assets/icons/19.png",
+    "38": "assets/icons/38.png",
+    "48": "assets/icons/48.png",
+    "128": "assets/icons/128.png"
+  }
+}
